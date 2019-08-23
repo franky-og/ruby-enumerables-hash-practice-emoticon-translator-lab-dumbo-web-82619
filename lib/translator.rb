@@ -15,11 +15,18 @@ end
 def get_japanese_emoticon(file, e_emote)
   # code goes here
   emotes = load_library(file)
+<<<<<<< HEAD
   if emotes["get_emoticon"].key?(e_emote) == true
     return emotes["get_emoticon"][e_emote]
   else
     "Sorry, that emoticon was not found"
   end
+=======
+  if emotes["get_emoticon"].key? == true
+    return emotes["get_emoticon"][e_emote]
+  else
+    
+>>>>>>> c71b3cd2251d9746a97c06437c07d13c4d5a0f9c
 end
 
 def get_english_meaning(file, j_emote)
